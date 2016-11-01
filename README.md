@@ -1,5 +1,17 @@
 # Coding Challenge (Front End)
 
+## Install Dependencies & Run Application in Production Mode
+
+```npm i && npm start```
+
+## Run Application in Production Mode
+
+```npm start```
+
+## Run Application in Development Mode
+
+```npm run dev```
+
 ## Expectations
 
 1. This project should not take more than 6-8 hours to complete.
