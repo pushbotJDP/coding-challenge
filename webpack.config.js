@@ -16,7 +16,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.js$/, include: __dirname + '/app', loader: "babel-loader"}
+      { test: /\.js$/, include: __dirname + '/app', loader: "babel-loader" },
+      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
     ]
   },
   plugins: [

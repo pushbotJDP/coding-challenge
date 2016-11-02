@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './layout/header/header';
+import Body from './layout/body/body'
 
 const Main = () => {
   return (
     <div id="main">
-      <h1>Hi there</h1>
+      <Header/>
+      <Body/>
     </div>
   )
 };
