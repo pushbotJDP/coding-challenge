@@ -1,6 +1,6 @@
 import React from 'react';
-import StepsContainer from './stepsContainer';
-import DetailsContainer from './detailsContainer';
+import StepsContainer from './steps/stepsContainer';
+import DetailsContainer from './details/detailsContainer';
 
 const Body = () => {
   return (

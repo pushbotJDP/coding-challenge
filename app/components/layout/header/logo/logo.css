@@ -1,0 +1,17 @@
+.logoWrapper {
+  background-color:#414358;
+  padding-bottom:0;
+}
+
+.logo {
+  width:75px;
+  float:left;
+  font-weight:bold;
+}
+
+.logoTitle {
+  float:left;
+  color:#FFF;
+  font-weight:bold;
+  margin:10px 0 0 20px;
+}

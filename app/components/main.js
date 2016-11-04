@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './layout/header/header';
-import Body from './layout/body/body'
+import Body from './layout/body/body';
 
 const Main = () => {
   return (
