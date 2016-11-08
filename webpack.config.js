@@ -37,9 +37,12 @@ module.exports = {
     }),
     // silence UglifyJs warnings about dead code removal
     new webpack.optimize.UglifyJsPlugin({
-        compress: {
-            warnings: false
-        }
+      compress: {
+        warnings: false
+      }
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true
+  }
 };

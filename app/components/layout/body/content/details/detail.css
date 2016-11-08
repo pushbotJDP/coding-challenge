@@ -1,0 +1,8 @@
+.messageHeader {
+  float: left;
+  padding-right: 10px;
+}
+
+.messageBody p {
+  margin:10px 0;
+}

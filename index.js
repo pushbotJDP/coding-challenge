@@ -6,7 +6,8 @@ app.listen(3000, function () {
   console.log(colors.rainbow('----------------------------  o8o  ----------------------------'));
   console.log('');
   console.log(colors.green('      ---------------------------------------------'));
-  console.log(colors.green('     |   Hi there kind people of Catalytic!        |'));
+  console.log(colors.green('     |   Hello there kind people of Catalytic!     |'));
+  console.log(colors.green('     |   Thank you for your consideration.         |'));
   console.log(colors.green('      ---------------------------------------------'));
   console.log(colors.green('                                   /          '));
   console.log(colors.green('                                  /          '));

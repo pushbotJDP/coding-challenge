@@ -1,0 +1,17 @@
+.step {
+  display:block;
+  height:75px;
+  border-bottom:1px solid #999;
+  color: #666;
+  padding:10px 20px;
+}
+
+.step:hover {
+  color:#CCC;
+}
+
+.smallText {
+  width:100%;
+  float:left;
+  clear:both;
+}

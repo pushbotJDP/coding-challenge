@@ -64,31 +64,31 @@ Also, note the naming differences between the design and the data. Most notably,
 Your project MUST satisfy all of the below requirements. Anything else is "bonus".
 
 - You should be able to view a **Process**'s:
-    * Display Name
-    * Description
-    * Owner/Creator
-    * Category
-    * Total Number of Steps
+    * Display Name &#10003;
+    * Description &#10003;
+    * Owner/Creator &#10003;
+    * Category &#10003;
+    * Total Number of Steps &#10003;
 
 - You should be able to edit a **Process**'s:
-    * Display Name
-    * Description
+    * Display Name &#10003;
+    * Description &#10003;
 
 - You should be able to view all the **Steps** in the process in a LIST VIEW. It should include:
-    * The Step Name
-    * The Step Number
+    * The Step Name &#10003;
+    * The Step Number &#10003;
     * Whether the Step is assigned to someone (blank/nothing if not)
-    * A Steps' Dependencies
+    * A Steps' Dependencies &#10003;
 
 - When you click on a Step, you should see the Step details. They should include:
-    * Display Name
-    * Description
-    * Dependencies (view only)
-    * Conditions (view only)
-    * Fields (view only)
-    * **User Assigned List**
+    * Display Name &#10003;
+    * Description &#10003;
+    * Dependencies (view only) &#10003;
+    * Conditions (view only) &#10003;
+    * Fields (view only) &#10003;
+    * **User Assigned List** &#10003;
 
 - You should be able to edit a **Step**'s:
-    * Display Name
-    * Description
+    * Display Name &#10003;
+    * Description &#10003;
     * Assigned Users (many or none)

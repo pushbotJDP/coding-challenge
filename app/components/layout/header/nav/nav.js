@@ -1,25 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router';
 import cx from 'classnames';
 import styles from './nav.css';
 
 const Nav = () => {
   return (
-    <div className={cx('column', 'is-9', styles.navWrapper)}>
+    <div className={cx('column', 'is-8', styles.navWrapper)}>
       <div className={styles.navLeft}>
-        <a href="#">
-          Tasks
-        </a>
-        <a href="#">
-          Routines
-        </a>
-        <a href="#">
-          Templates
-        </a>
+        <Link to="/processes">Processes</Link>
       </div>
       <div className={styles.navRight}>
-        <a href="#">
-          Team
-        </a>
+        <Link to="/team">Team</Link>
         <a className={cx('button', styles.navSettingsButton)} href="#">
           <i className="fa fa-cog" aria-hidden="true"></i>
         </a>
